@@ -55,6 +55,9 @@ Comprehensive support and maintenance terms covering:
 - [Deslicer DevOps EULA](eula/offerings/deslicer-devops/EULA.md)
 - [Deslicer Automation Platform EULA](eula/offerings/deslicer-automation-platform/EULA.md)
 
+### Vendor Channels
+- [Splunkbase Apps EULA](eula/channels/splunk/splunkbase-apps/EULA.md)
+
 ### Open Source Projects
 - [AI Sidekick for Splunk EULA](eula/oss/ai-sidekick-for-splunk/EULA.md)
 - [MCP for Splunk EULA](eula/oss/mcp-for-splunk/EULA.md)
