@@ -27,7 +27,7 @@ By downloading, installing, accessing, or using the Software from Splunkbase, yo
 
 - the [**Deslicer General Terms**](https://github.com/deslicer/legal/blob/main/general-terms/deslicer-general-terms.md), and
 - any applicable [**Specific Offering Terms**](https://github.com/deslicer/legal/blob/main/specific-terms/deslicer-specific-terms.md), and
-- where Deslicer Processes Personal Data on your behalf, the applicable [**Data Processing Agreement**](https://github.com/deslicer/legal/blob/main/dpa/deslicer-emea-apac-dpa.md).
+- where Deslicer Processes Personal Data on your behalf, the applicable [**Data Processing Agreement**](https://github.com/deslicer/legal/blob/2004f8319bbbd8a3a13c10b1cc22064aa97760a2/dpa/deslicer-emea-apac-dpa.md).
 
 Those terms together form your contract with Deslicer for the relevant Offering. This EULA is intended to govern the Software distributed via Splunkbase and does not modify the General Terms, any applicable Specific Offering Terms, or any applicable Data Processing Agreement.
 

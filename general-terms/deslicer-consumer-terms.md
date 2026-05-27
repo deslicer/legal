@@ -2,7 +2,7 @@
 
 <img src="../media/logo.png" alt="Deslicer logo" width="300" />
 
-Last Updated: January 7, 2026
+Last Updated: May 27, 2026
 
 **For Individual Consumers Only.** These Consumer Terms are intended for individuals who use Deslicer's services for personal, non-commercial purposes. If you are acquiring our services for business or commercial purposes, please refer to the [Deslicer General Terms](deslicer-general-terms.md), which govern business-to-business transactions.
 
@@ -279,6 +279,22 @@ If we terminate your account, we will make reasonable efforts to notify you in a
 ### 10.5 Appeals
 
 If you believe we have suspended or terminated your account in error, you can file an appeal by contacting us at [support@deslicer.com](mailto:support@deslicer.com).
+
+### 10.6 Your Content at Cancellation or Account Closure
+
+Once your account is closed — whether you cancel, your subscription expires, or we close your account in accordance with section 10.3 — you will no longer have access to the Services or to any Content stored in your account. The Services do **not** provide a separate post-termination retrieval or export window for consumer accounts.
+
+You are responsible for exporting any Content you wish to keep **before** closing your account or allowing your subscription to lapse. Where in-product export tools are provided, you should use them; where they are not, you may manually preserve content (for example, by copying it from the user interface) while you still have access.
+
+Following account closure, we will delete remaining Content from our active systems within 90 days, subject to:
+
+- any retention required by applicable law;
+- backup and decommissioning processes, which may render data unrecoverable rather than physically erased from all backup systems at the moment of closure, and which may persist for a limited period consistent with our backup retention policies, after which the data will be overwritten or deleted in the ordinary course of business; and
+- any retention reasonably necessary to enforce or comply with these Terms (for example, to resolve disputes or address security incidents).
+
+Personal data is handled in accordance with our [Privacy Policy](https://deslicer.com/privacy). For AI-powered Services, agent conversation history and other AI Service Data are operational in nature, are not preserved for retrieval after account closure, and are handled as described in the [Deslicer AI Data Lifecycle and Handling Schedule](../specific-terms/deslicer-ai-data-lifecycle-and-handling.md).
+
+Enterprise customers contracting under the [Deslicer General Terms](deslicer-general-terms.md) have a 30-day post-termination retrieval window for Customer Content under General Terms section 4.3. That window is a feature of the enterprise contract and does **not** apply to consumer accounts under these Terms.
 
 ---
 
