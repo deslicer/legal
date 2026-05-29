@@ -2,7 +2,7 @@
 
 <img src="../media/logo.png" alt="Deslicer logo" width="300" />
 
-Last Updated: January 7, 2026
+Last Updated: May 27, 2026
 
 **Deslicer AB** ("Deslicer," "we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and protect your personal data in compliance with the General Data Protection Regulation (GDPR) and other applicable data protection laws.
 
@@ -52,6 +52,11 @@ For detailed information about data processing roles and responsibilities, pleas
 - Usage patterns and feature interactions
 - Support requests and communications
 
+**Marketing and Sales Information:**
+- Business contact details collected from prospects, leads, partners, and customer-side contacts (for example, through inquiries, events, marketing campaigns, or sales engagement)
+- Communication history and notes maintained for relationship management
+- Account and opportunity records relating to commercial discussions
+
 ### 3.2 Data Processed Through Deslicer Services
 
 **For Deslicer AI:**
@@ -63,6 +68,8 @@ For detailed information about data processing roles and responsibilities, pleas
 - Configuration data, pipeline definitions, and deployment artifacts
 - Operational data, logs, and telemetry
 - User activity and change history
+
+**Telemetry from on-premises and supporting components.** Where the Offerings include on-premises or supporting components, Deslicer collects limited operational telemetry to evaluate performance, reliability, and feature usage of the Offerings. This telemetry is limited to aggregated tenant-level counts and operational metrics — for example, the number of agent conversations, tokens used, and integrations configured — and does not include conversation content, Inputs, Outputs, user identifiers, or per-user activity. Such telemetry is processed by Deslicer's own EU-based analytics service on the same infrastructure listed in the [Subprocessor List](subprocessors.md). Where this telemetry consists of aggregated, de-identified data that no longer constitutes Personal Data, it is governed by Deslicer's confidentiality and usage commitments rather than the controller-processor framework of the GDPR (see DPA section 6.1).
 
 **Important:** Deslicer does not use your Customer Content or Personal Data as training data for AI models. For detailed information about AI Service Data processing, see the [Specific Terms for Deslicer Offerings](../specific-terms/deslicer-specific-terms.md), Section 3 (Purpose and Use of AI Service Data).
 
@@ -142,7 +149,8 @@ For detailed information about subprocessors and notification mechanisms, see th
 We may also share data with:
 - **Payment Providers:** To process transactions (they process payment data independently)
 - **Legal and Regulatory Authorities:** When required by law or to protect rights and safety
-- **Service Providers:** Under strict confidentiality and data protection obligations
+- **Customer Relationship Management (CRM) Provider:** Upsales AB (Sweden, EU) processes prospect, lead, and customer-contact data on our behalf for sales, marketing, account management, and customer engagement activities, under a written data processing agreement and as our processor. Upsales is engaged for Deslicer's own controller-tier activities and is not a subprocessor of Customer Personal Data processed under the Data Processing Agreement.
+- **Service Providers:** Other providers engaged under strict confidentiality and data protection obligations
 
 ---
 
@@ -198,14 +206,21 @@ We retain your personal data only for as long as necessary to:
 - Comply with legal retention requirements
 
 **For Individual Consumers:**
-- Account data: Retained while your account is active and for a reasonable period after closure
-- Transaction data: Retained as required by law (typically 7 years for tax/accounting purposes)
-- Support communications: Retained for the duration of the support relationship and a reasonable period thereafter
+- **No post-termination retrieval window.** Once your account is closed (whether you cancel, your subscription expires, or we close it under the Consumer Terms), you will no longer have access to the Services or to Content stored in your account. The Services do not provide a separate post-termination retrieval or export window for consumer accounts; please export any Content you wish to keep before closing your account. See [Consumer Terms](../general-terms/deslicer-consumer-terms.md), section 10 (in particular section 10.6).
+- **Account and Content data:** Deleted from active systems within 90 days after account closure, subject to backup and decommissioning processes (which may render data unrecoverable rather than physically erased at the moment of closure) and to any retention required by law or reasonably necessary to enforce or comply with the Consumer Terms.
+- **Transaction data:** Retained as required by law (typically 7 years for tax/accounting purposes).
+- **Support communications:** Retained for the duration of the support relationship and a reasonable period thereafter.
+- **AI Service Data (Deslicer AI):** Deleted as part of service decommissioning following account closure; agent conversation history is operational in nature and is not preserved for retrieval after closure. See the [Deslicer AI Data Lifecycle and Handling Schedule](../specific-terms/deslicer-ai-data-lifecycle-and-handling.md).
+- **Backup retention:** Follows standard backup policies; data in backups is overwritten or deleted in the ordinary course of business.
 
 **For Enterprise Customers:**
 - Data retention is governed by the Agreement and DPA
-- Upon termination, data is deleted or returned in accordance with the DPA (section 9)
-- Backup retention follows standard backup policies
+- Upon termination, Personal Data is deleted or returned in accordance with the DPA (section 9)
+- Customer Content in SaaS Services: 30-day retrieval window after termination, then deletion (General Terms section 4.3)
+- AI Service Data (Deslicer AI): retention and deletion governed by Specific Terms section 12A and the [Deslicer AI Data Lifecycle and Handling Schedule](../specific-terms/deslicer-ai-data-lifecycle-and-handling.md); end users are responsible for preserving agent conversation history they wish to keep
+- Service-Operational Data (Deslicer AI): Collected Configuration Data and Configuration Change Records are governed by Specific Terms section 12B; Configuration Change Records are internal service technology and are not customer-exportable
+- Access and audit logs are retained in Deslicer internal systems for periods required by applicable law and are not customer-exportable
+- Backup retention follows standard backup policies and DPA section 9.2
 
 ---
 
@@ -249,13 +264,20 @@ You have the following rights regarding your personal data:
 **Important:** Deslicer does not use your Customer Content or Personal Data as training data for AI models.
 
 **For Deslicer AI Users:**
-- **AI Service Data:** Inputs, Outputs, and context data are processed to provide the AI service
+- **AI Service Data:** Inputs, Outputs, agent conversation history, and context data are processed to provide the AI service
+- **Retention during the Term:** Deslicer uses commercially reasonable efforts to retain AI Service Data during your subscription Term, subject to in-product controls and to maintenance, upgrade, migration, and housekeeping activities that may delete, truncate, or make conversation history unavailable. Deslicer does not warrant uninterrupted availability of conversation history.
+- **End-user export responsibility:** Preserving agent conversation history is the end user's responsibility. Use in-product export tools where provided, or manually preserve content (for example, by copying from the user interface) before maintenance or termination.
+- **After termination:** AI Service Data is deleted as part of service decommissioning. Deslicer does not maintain a separate post-termination retrieval window for AI Service Data unless agreed in the Order. See Specific Terms section 12A and the [Deslicer AI Data Lifecycle and Handling Schedule](../specific-terms/deslicer-ai-data-lifecycle-and-handling.md) for the full lifecycle.
+- **Service-Operational Data:** Configuration snapshots and change records that Deslicer maintains internally to operate Deslicer AI are governed by Specific Terms section 12B. Configuration Change Records are not customer-exportable.
+- **Access and audit logs:** Retained in Deslicer internal systems for periods required by applicable law; not customer-exportable.
+- **Training Data:** Deslicer does not use Customer Content or Personal Data for model training; Training Data retention is limited to aggregated, de-identified analytics (Specific Terms section 12)
 - **Training Opt-Out:** You can opt out of using your Content for training by updating your account settings
-- **BYO AI:** If you use "Bring Your Own AI Service," your AI provider relationship is separate from Deslicer
+- **BYO AI:** If you use "Bring Your Own AI Service," your AI provider relationship is separate from Deslicer and inference data sent to your provider is outside Deslicer's retention model
 
 For detailed information about AI Service Data processing, see:
-- [Specific Terms for Deslicer Offerings](../specific-terms/deslicer-specific-terms.md), Section 3 (Purpose and Use of AI Service Data)
-- [Deslicer Data Processing Agreement](../dpa/deslicer-emea-apac-dpa.md), Section 6 (Use of Processors for AI and Analytics)
+- [Specific Terms for Deslicer Offerings](../specific-terms/deslicer-specific-terms.md), Sections 3, 10, 12A (AI Service Data), and 12B (Service-Operational Data)
+- [Deslicer AI Data Lifecycle and Handling Schedule](../specific-terms/deslicer-ai-data-lifecycle-and-handling.md)
+- [Deslicer Data Processing Agreement](../dpa/deslicer-emea-apac-dpa.md), Section 9 (Return and Deletion of Personal Data)
 
 ---
 
@@ -318,4 +340,3 @@ All Deslicer legal documents are maintained in our public legal repository at:
 ---
 
 *© 2026 Deslicer AB. All rights reserved.*
-

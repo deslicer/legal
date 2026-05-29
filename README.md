@@ -4,7 +4,7 @@
 
 **Deslicer AB**
 Company Registration Number: 559498-4626
-**Last Updated:** January 7, 2026
+**Last Updated:** May 27, 2026
 
 ---
 
@@ -24,6 +24,7 @@ Master service agreement terms applicable to all Deslicer Offerings, including:
 - Intellectual property rights
 - Warranties and limitations of liability
 - Termination and dispute resolution
+
 
 ### [Specific Terms](specific-terms/deslicer-specific-terms.md)
 Service-specific terms and conditions for individual Deslicer Offerings:
@@ -139,11 +140,6 @@ Documentation of Deslicer's compliance with regulatory frameworks:
 2. **Data Protection:** Review the [DPA](dpa/deslicer-emea-apac-dpa.md) and execute if required
 3. **International Transfers:** Check if you need [data transfer addenda](dpa/addenda/)
 4. **Support:** Understand your support entitlements in [Support Terms](support-terms/deslicer-support-terms.md)
-
-### For Partners
-1. Review the General Terms and Specific Terms applicable to your partnership
-2. Consult Deslicer's [corporate policies](policies/) for supplier and partner expectations
-3. Contact legal@deslicer.com for partner-specific agreements
 
 ### For End Users
 1. Review the applicable EULA for the Deslicer Offering you're using

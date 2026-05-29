@@ -2,7 +2,7 @@
 
 <img src="../media/logo.png" alt="Deslicer logo" width="300" />
 
-Last Updated: January 7, 2026
+Last Updated: May 27, 2026
 
 This Data Processing Agreement (**"DPA"**) forms part of the Deslicer General Terms (the **"General Terms"**) or other master agreement between Deslicer AB (**"Deslicer"**) and the entity identified as customer in the applicable Order (**"Customer"**) (together, the **"Agreement"**).
 
@@ -16,13 +16,7 @@ If there is any conflict between this DPA and the Agreement, this DPA will preva
 
 1.1 **Roles.** For the purposes of applicable Data Protection Laws, including the GDPR, Customer is the **Data Controller** and Deslicer is the **Data Processor** in respect of any Personal Data Processed as part of the Offerings.
 
-1.2 **Scope of Processing.** This DPA applies solely to Deslicer’s Processing of Personal Data on behalf of Customer as necessary to provide, support, secure and improve the Offerings under the Agreement, including:
-
-- Deslicer AI;
-- Deslicer DevOps; and
-- Deslicer Automation Platform,
-
-in each case only to the extent Deslicer Processes Personal Data as a Data Processor.
+1.2 **Scope of Processing.** This DPA applies solely to Deslicer’s Processing of Personal Data on behalf of Customer as necessary to provide, support, secure and improve the Offerings under the Agreement. The Offerings include the service families currently identified in the Documentation and applicable Orders (for example, Deslicer’s AI, DevOps and automation platform services), together with any supporting, ancillary or platform services that Deslicer makes available as part of, or in connection with, those service families — such as environment blueprints, reference architectures, configuration templates, shared platform components and microservices, preview or early-access features, and successor or rebranded services — in each case only to the extent Deslicer Processes Personal Data as a Data Processor.
 
 1.3 **Customer Instructions.** Deslicer will Process Personal Data only:
 
@@ -168,6 +162,10 @@ except to the extent Deslicer is required by applicable law to retain some or al
 
 9.2 **Backups and Logs.** Deletion obligations may be satisfied through standard decommissioning processes, which may render Personal Data unrecoverable rather than physically erased from all backup systems. Deslicer may retain Personal Data in system logs and backups for a limited period consistent with its backup retention policies, after which the data will be overwritten or deleted in the ordinary course of business.
 
+9.3 **AI Service Data and Service-Operational Data.** Where Personal Data is Processed as part of AI Service Data or Service-Operational Data in connection with Deslicer AI, return and deletion of such data is also governed by Specific Terms sections 12A and 12B and the Deslicer AI Data Lifecycle and Handling Schedule available at [https://github.com/deslicer/legal/blob/main/specific-terms/deslicer-ai-data-lifecycle-and-handling.md](https://github.com/deslicer/legal/blob/main/specific-terms/deslicer-ai-data-lifecycle-and-handling.md), in each case without prejudice to this section 9 for Personal Data.
+
+9.4 **Access and Audit Logs.** Where access, audit, security, or compliance logs are retained in Deslicer's internal systems (for example, for audit, compliance, dispute resolution, or security purposes), Deslicer may retain such logs for periods required by applicable law and for Deslicer's legitimate compliance and security needs. Personal Data within such logs remains subject to the backup and decommissioning approach in section 9.2 and to the independent controller carve-out in section 9.1.
+
 ---
 
 ### 10. Liability
@@ -196,8 +194,8 @@ The subject matter of the Processing is the provision of the Offerings under the
 **Nature and Purpose of Processing**
 Deslicer Processes Personal Data for the purposes of:
 
-- providing, operating, maintaining and supporting the Offerings (including Deslicer AI, Deslicer DevOps and Deslicer Automation Platform);
-- performing configuration management, policy enforcement, orchestration and CI/CD workflows as configured by Customer;
+- providing, operating, maintaining and supporting the Offerings, including their constituent components, microservices and any supporting, ancillary or platform services (such as configuration intelligence and automation services, CI/CD and DevOps services, environment blueprints, reference architectures and shared platform components);
+- performing configuration management, policy enforcement, orchestration, CI/CD workflows and environment blueprinting as configured by Customer;
 - generating analyses, insights, recommendations and automation Outputs based on Customer’s data;
 - ensuring security, availability and performance of the Offerings; and
 - improving and developing the Offerings, where permitted by the Agreement and this DPA.

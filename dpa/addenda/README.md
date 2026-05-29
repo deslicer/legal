@@ -278,7 +278,7 @@ Subject: Regional Deployment Inquiry
 
 ## Related Documents
 
-- **Deslicer Data Processing Agreement (EMEA & APAC):** https://github.com/deslicer/legal/blob/main/dpa/deslicer-emea-apac-dpa.md
+- **Deslicer Data Processing Agreement (EMEA & APAC):** https://github.com/deslicer/legal/blob/2004f8319bbbd8a3a13c10b1cc22064aa97760a2/dpa/deslicer-emea-apac-dpa.md
 - **Subprocessor List:** https://github.com/deslicer/legal/blob/main/privacy/subprocessors.md
 - **Deslicer General Terms:** https://github.com/deslicer/legal/blob/main/general-terms/deslicer-general-terms.md
 
